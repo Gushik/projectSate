@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './page1.component.html',
   styleUrls: ['./page1.component.scss'],
   animations: [
-    trigger('animation', [
-      transition('void => *', [
+    trigger('animationCircle', [
+      transition('time=> *', [
         style({ opacity: 0 }),
         animate('1.2s', style({ opacity: 1 })),
       ]),
@@ -15,6 +15,9 @@ import { Component, OnInit } from '@angular/core';
   ],
 })
 export class Page1Component implements OnInit {
+
+
+
 
   constructor() { }
 
