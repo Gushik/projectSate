@@ -1,0 +1,23 @@
+.container
+{
+  display: flex;
+}
+.row{
+  display: flex;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+.col .row div{
+width: 100px;
+height: 200px;
+background-color: yellow;
+margin: 10px;
+}
+.container >.row
+{
+width: 100px;
+height: 300px;
+background-color: chocolate
+}

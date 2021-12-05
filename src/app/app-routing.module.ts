@@ -11,9 +11,11 @@ import { Page6Component } from './page6/page6.component';
 import { Page7Component } from './page7/page7.component';
 import { Page8Component } from './page8/page8.component';
 import { Page9Component } from './page9/page9.component';
+import { PageMainComponent } from './page-main/page-main.component';
+
 
 const routes: Routes = [
-  {path:'',redirectTo:'/page1',pathMatch:'full'},
+  {path:'',redirectTo:'/page-main',pathMatch:'full'},
  {path:'page1',component:Page1Component},
  {path:'page2',component:Page2Component},
  {path:'page3',component:Page3Component},
@@ -23,6 +25,8 @@ const routes: Routes = [
  {path:'page7',component:Page7Component},
  {path:'page8',component:Page8Component},
  {path:'page9',component:Page9Component},
+ {path:'page-main',component:PageMainComponent},
+
   {path:'**',component:PageNotNoundComponent},
 ];
 
