@@ -13,7 +13,6 @@ import { Page6Component } from './page6/page6.component';
 import { Page7Component } from './page7/page7.component';
 import { Page8Component } from './page8/page8.component';
 import { Page9Component } from './page9/page9.component';
-import { PageMainComponent } from './page-main/page-main.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { PageMainComponent } from './page-main/page-main.component';
     Page6Component,
     Page7Component,
     Page8Component,
-    Page9Component,
-    PageMainComponent
+    Page9Component
   ],
   imports: [
     BrowserModule,
