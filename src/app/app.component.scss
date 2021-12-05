@@ -9,8 +9,15 @@
   display: flex;
   flex-direction: column;
 }
-.row :nth-child(1)> div{
+.col .row div{
 width: 100px;
 height: 200px;
-background-color: red;
+background-color: yellow;
+margin: 10px;
+}
+.container >.row
+{
+width: 100px;
+height: 300px;
+background-color: chocolate
 }
