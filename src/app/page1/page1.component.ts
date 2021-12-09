@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.scss'],
   animations: [
     trigger('animationCircle', [
-      transition('time=> *', [
+      transition('*=> *', [
         style({ opacity: 0 }),
         animate('1.2s', style({ opacity: 1 })),
       ]),
