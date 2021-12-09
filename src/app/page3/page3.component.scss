@@ -22,10 +22,25 @@
     background-image: url("../../assets/superpromo/5565375.png")
 }
 .circle{
-    width: 90%; 
-    height: 98vh; 
+    width: 25%; 
+    height: 33vh; 
+    position: relative;    
+    top: -320px;
+    left: 78%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../../assets/megasale/2.png")
+    background-image: url("../../assets/superpromo/Ellipse 1.png")
+
+}
+.text{
+    width: 25%; 
+    height: 21vh; 
+    position: relative;    
+    top: -560px;
+    left: 79.5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/superpromo/Promo.png")
+
 
 }
