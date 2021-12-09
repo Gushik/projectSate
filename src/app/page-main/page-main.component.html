@@ -1,6 +1,6 @@
 <div class="main">
-  <h1>Text1</h1>
-  <h2>Text2</h2>
+  <!-- <h1>Text1</h1>
+  <h2>Text2</h2> -->
     <div class="container">
         <div class="pictureVertical">
             <a routerLink="/page1" routerLinkActive="active">
@@ -9,16 +9,16 @@
           </div>
         <div class="col">
           <div class="row">
-            <div><a routerLink="/page2" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            <div><a routerLink="/page3" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            <div><a routerLink="/page4" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
+            <div ><a routerLink="/page2" routerLinkActive="active"> <img (mouseover)= "changeMoveDivState()" (mouseout) ="changeOutDivState()" [@moveMouseDiv] ="moveDivState" src="../assets/title_picture/megasale2.png" alt="lorem"/></a></div>
+            <div><a routerLink="/page3" routerLinkActive="active"> <img (mouseover)= "changeMoveDivState()" (mouseout) ="changeOutDivState()" [@moveMouseDiv2] ="moveDivState"  src="../assets/title_picture/superpromo.png" alt="lorem"/></a></div>
+            <div><a routerLink="/page4" routerLinkActive="active"> <img src="../assets/title_picture/biggestsale.png" alt="lorem"/></a></div>
             <div><a routerLink="/page5" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
           </div>
           <div class="row">
-            <div><a routerLink="/page6" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            <div><a routerLink="/page7" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            <div><a routerLink="/page8" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            <div><a routerLink="/page9" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
+            <div><a routerLink="/page6" routerLinkActive="active"> <img src="../assets/title_picture/flashsale.png" alt="lorem"/></a></div>
+            <div><a routerLink="/page7" routerLinkActive="active"> <img src="../assets/title_picture/specialoffer.png" alt="lorem"/></a></div>
+            <div><a routerLink="/page8" routerLinkActive="active"> <img src="../assets/title_picture/newarrival.png" alt="lorem"/></a></div>
+            <div><a routerLink="/page9" routerLinkActive="active"> <img src="../assets/title_picture/bigsale.png" alt="lorem"/></a></div>
           </div>
         </div>
       </div>

@@ -16,7 +16,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page1Component implements OnInit {
 
+  moveDivState = 'start';
 
+  changeMoveDivState(): void{
+    this.moveDivState = 'end';
+    
+
+  }
+  changeOutDivState(): void{
+    this.moveDivState = 'start';
+
+  }
 
 
   constructor() { }
