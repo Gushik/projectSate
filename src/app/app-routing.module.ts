@@ -15,7 +15,7 @@ import { PageMainComponent } from './page-main/page-main.component';
 
 
 const routes: Routes = [
-  {path:'',redirectTo:'/page-main',pathMatch:'full'},
+  {path:'',redirectTo:'/main',pathMatch:'full'},
  {path:'page1',component:Page1Component},
  {path:'page2',component:Page2Component},
  {path:'page3',component:Page3Component},
@@ -25,7 +25,7 @@ const routes: Routes = [
  {path:'page7',component:Page7Component},
  {path:'page8',component:Page8Component},
  {path:'page9',component:Page9Component},
- {path:'page-main',component:PageMainComponent},
+ {path:'main',component:PageMainComponent},
 
   {path:'**',component:PageNotNoundComponent},
 ];
