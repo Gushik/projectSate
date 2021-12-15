@@ -19,7 +19,7 @@ import { Component, OnInit } from '@angular/core';
         zIndex: '1',
 
       })),
-      
+
       transition('start => end', animate (500)),
       transition('end => start', animate ('500ms 0.5s ease-out'))
     ]),
@@ -36,19 +36,20 @@ import { Component, OnInit } from '@angular/core';
         zIndex: '1',
 
       })),
-      
+
       transition('start => end', animate (500)),
       transition('end => start', animate ('500ms 0.5s ease-out'))
     ])
   ]
 })
 export class PageMainComponent implements OnInit {
-
+  blok1=true;
+  blok2=false;
   moveDivState = 'start';
 
   changeMoveDivState(): void{
     this.moveDivState = 'end';
-    
+
 
   }
   changeOutDivState(): void{

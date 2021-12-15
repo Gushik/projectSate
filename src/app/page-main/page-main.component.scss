@@ -31,3 +31,14 @@
 .pictureVertical a img {
   height: 700px;
 }
+.sale {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .sale a img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .sale a img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
