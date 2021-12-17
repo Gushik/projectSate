@@ -1,40 +1,22 @@
-<div class="main">
-  <!-- <h1>Text1</h1>
-  <h2>Text2</h2> -->
-    <div class="mycontainer">
-        <div class="pictureVertical">
+
+  <div class="container-fluid">
+        <div class="row">
+          <div class="sale col-4">
             <a routerLink="/page1" routerLinkActive="active">
-              <img  src="../assets/title_picture/supersale.jpg" alt="lorem"/>
+              <img  class="img-fluid" src="../assets/title_picture/supersale.jpg" alt="lorem"/>
             </a>
           </div>
-        <div class="mycol" *ngIf="blok1">
-            <div class="myrow">
-              <div class="sale"><a routerLink="/page2" routerLinkActive="active"> <img src="../assets/title_picture/megasale2.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page3" routerLinkActive="active"> <img src="../assets/title_picture/superpromo.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page4" routerLinkActive="active"> <img src="../assets/title_picture/biggestsale.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page5" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-            </div>
-            <div class="myrow">
-              <div class="sale"><a routerLink="/page6" routerLinkActive="active"> <img src="../assets/title_picture/flashsale.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page7" routerLinkActive="active"> <img src="../assets/title_picture/specialoffer.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page8" routerLinkActive="active"> <img src="../assets/title_picture/newarrival.png" alt="lorem"/></a></div>
-              <div class="sale"><a routerLink="/page9" routerLinkActive="active"> <img src="../assets/title_picture/bigsale.png" alt="lorem"/></a></div>
-            </div>
+        <div class="col-8" >
+          <div class="sale  col-3 "><a routerLink="/page2" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/megasale2.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page3" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/superpromo.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page4" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/biggestsale.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page5" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page6" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/flashsale.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page7" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/specialoffer.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page8" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/newarrival.png" alt="lorem"/></a></div>
+          <div class="sale  col-3 "><a routerLink="/page9" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/bigsale.png" alt="lorem"/></a></div>
         </div>
-        <div class="col" *ngIf="blok2">
-          <div class="row">
-            <div ><a routerLink="/page2" routerLinkActive="active"> <img (mouseover)= "changeMoveDivState()" (mouseout) ="changeOutDivState()" [@moveMouseDiv] ="moveDivState" src="../assets/title_picture/megasale2.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page3" routerLinkActive="active"> <img  [@moveMouseDiv2] ="moveDivState"  src="../assets/title_picture/superpromo.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page4" routerLinkActive="active"> <img src="../assets/title_picture/biggestsale.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page5" routerLinkActive="active"> <img src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-          </div>
-          <div class="row">
-            <div><a routerLink="/page6" routerLinkActive="active"> <img src="../assets/title_picture/flashsale.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page7" routerLinkActive="active"> <img src="../assets/title_picture/specialoffer.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page8" routerLinkActive="active"> <img src="../assets/title_picture/newarrival.png" alt="lorem"/></a></div>
-            <div><a routerLink="/page9" routerLinkActive="active"> <img src="../assets/title_picture/bigsale.png" alt="lorem"/></a></div>
-          </div>
-        </div>
+
       </div>
-</div>
+  </div>
 
