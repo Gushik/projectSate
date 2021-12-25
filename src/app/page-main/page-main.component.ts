@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
   animations:[
     trigger('moveMouseDiv', [
       state('start', style({
-        height:'350px',
+        height:'100%',
         /* position: 'absolute', */
         zIndex: '1',
 
       })),
       state('end', style({
-        height:'450px',
+        height:'1050px',
         position: 'relative',
         zIndex: '1',
 
@@ -25,13 +25,13 @@ import { Component, OnInit } from '@angular/core';
     ]),
     trigger('moveMouseDiv2', [
       state('start', style({
-        height:'350px',
+        height:'550px',
         /* position: 'absolute', */
         zIndex: '1',
 
       })),
       state('end', style({
-        height:'450px',
+        height:'850px',
         position: 'relative',
         zIndex: '1',
 

@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-}
+} */
 /* .container {
   display: flex;
   justify-content: center;
@@ -25,20 +25,17 @@
 .col .row > div {
   margin-left: 10px;
 } */
-.col > .row > div a img {
+/* .col > .row > div a img {
   height: 350px;
 }
 .pictureVertical a img {
   height: 700px;
+} */
+#ddd
+{
+  background-image: url("../../assets/superpromo/Promo.png");
+  background-size: to-upper-case($string: "") ;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
 }
-.sale {
-  display: inline-block; /* Строчно-блочный элемент */
-  overflow: hidden; /* Скрываем всё за контуром */
- }
- .sale a img {
-  transition: 1s; /* Время эффекта */
-  display: block; /* Убираем небольшой отступ снизу */
- }
- .sale a img:hover {
-  transform: scale(1.2); /* Увеличиваем масштаб */
- }
