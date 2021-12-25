@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* * {
   margin: 0;
   padding: 0;
@@ -39,3 +40,25 @@
   background-position: bottom;
 
 }
+=======
+*{
+  margin: 0;
+  padding: 0;
+}
+.myheight{
+   height: 100vh;
+   margin: 10px;
+}
+.sale {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ .sale a img {
+
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+ }
+ .sale a img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+>>>>>>> 1822f5a22914a8cb67a4b4570635438a60bab78d
