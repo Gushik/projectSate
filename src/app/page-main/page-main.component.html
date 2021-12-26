@@ -1,73 +1,48 @@
-<<<<<<< HEAD
+
 <!-- <h1>Text1</h1>
   <h2>Text2</h2> -->
 <div class="container-fluid px-5 pb-4">
   <div class="row ">
-    <div class="col-lg-4 px-5 ">
-      <img src="../assets/title_picture/supersale.jpg" class="img-fluid" />
+    <div class="col-lg-4 px-4 " id="home">
+      <img src="../assets/5565458.png" class="img-fluid" />
     </div>
 
 
     <div class="col-lg-8  ">
       <div class="row  ">
-        <div class="col-lg-3 px-5 pb-4" id="ddd" >
-          <a routerLink="/page2" routerLinkActive="active"> <img (mouseover)="changeMoveDivState()"
-            (mouseout)="changeOutDivState()" [@moveMouseDiv]="moveDivState" class="img-fluid"
+        <div class="col-lg-3 px-3 pb-4"  id="ddd" >
+          <a id="ddd" routerLink="/page2" routerLinkActive="active"> <img  (mouseover)="cardClicked()" [@cardFlip]="data.state" class="img-fluid"
             src="../assets/title_picture/megasale2.png" alt="lorem"  /></a>
         </div>
 
-        <div class="col-lg-3 col-sm-4 px-5 ">
-          <a routerLink="/page3" routerLinkActive="active"> <img class="img-fluid"
+        <div class="col-lg-3 col-sm-4 px-3 " id="ddd1" >
+          <a routerLink="/page3" routerLinkActive="active"> <img (mouseout)="cardClicked()" [@cardFlip]="data.state"  class="img-fluid"
             src="../assets/title_picture/superpromo.png" alt="lorem" /></a>
         </div>
-        <div class="col-lg-3 px-5">
-          <a routerLink="/page4" routerLinkActive="active"> <img class="img-fluid"src="../assets/title_picture/biggestsale.png"
+        <div class="col-lg-3 px-3" id = "ddd2"  >
+          <a routerLink="/page4" routerLinkActive="active"> <img (mouseout)="cardClicked2()" [@cardFlip]="data.state" class="img-fluid"src="../assets/title_picture/biggestsale.png"
             alt="lorem" /></a>
         </div>
-        <div class="col-lg-3 px-5">
+        <div class="col-lg-3 px-3"  (mouseout)="cardClicked3()" [@cardFlip]="data.state" >
           <a routerLink="/page8" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/newarrival.png"
             alt="lorem" /></a>
         </div>
-      </div>
-=======
-
-  <div class="container-fluid ">
-        <div class="row  gy-5  myheight  align-content-center">
-          <div class="sale col-4 gy-5 ">
-            <a routerLink="/page1" routerLinkActive="active">
-              <img  class="img-fluid" src="../assets/title_picture/supersale.jpg" alt="lorem"/>
-            </a>
-          </div>
-        <div class="col-8 " >
-          <div class="sale  col-3 "><a routerLink="/page2" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/megasale2.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page3" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/superpromo.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page4" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/biggestsale.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page5" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/supersale.jpg" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page6" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/flashsale.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page7" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/specialoffer.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page8" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/newarrival.png" alt="lorem"/></a></div>
-          <div class="sale  col-3 "><a routerLink="/page9" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/bigsale.png" alt="lorem"/></a></div>
-        </div>
-
-      </div>
-  </div>
->>>>>>> 1822f5a22914a8cb67a4b4570635438a60bab78d
-
-      <div class="row">
-        <div class="col-lg-3 col-3 px-5">
+      </div>         
+      <div class="row" >
+        <div class="col-lg-3 col-3 px-3" (mouseout)="cardClicked()" [@cardFlip]="data.state" >
           <a routerLink="/page5" routerLinkActive="active"> <img  class="img-fluid" src="../assets/title_picture/supersale.jpg"
             alt="lorem" /></a>
         </div>
 
-        <div class="col-lg-3 col-3 px-5 ">
-          <a routerLink="/page6" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/flashsale.png"
+        <div class="col-lg-3 col-3 px-3 " id = "ddd3" >
+          <a routerLink="/page6" routerLinkActive="active"> <img (mouseout)="cardClicked()" [@cardFlip]="data.state" class="img-fluid" src="../assets/title_picture/flashsale.png"
             alt="lorem" /></a>
         </div>
-        <div class="col-lg-3 col-3 px-5">
+        <div class="col-lg-3 col-3 px-3" (mouseout)="cardClicked()" [@cardFlip]="data.state" >
          <a routerLink="/page7" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/specialoffer.png"
             alt="lorem" /></a>
         </div>
-        <div class="col-lg-3 col-3 px-5">
+        <div class="col-lg-3 col-3 px-3" (mouseout)="cardClicked()" [@cardFlip]="data.state" >
           <a routerLink="/page9" routerLinkActive="active"> <img class="img-fluid" src="../assets/title_picture/bigsale.png"
             alt="lorem" /></a>
         </div>

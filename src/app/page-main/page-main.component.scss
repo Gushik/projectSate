@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* * {
   margin: 0;
   padding: 0;
@@ -32,15 +32,46 @@
 .pictureVertical a img {
   height: 700px;
 } */
+
 #ddd
 {
-  background-image: url("../../assets/superpromo/Promo.png");
-  background-size: to-upper-case($string: "") ;
-  background-repeat: no-repeat;
-  background-position: bottom;
+ 
+  background-image: url("../../assets/megasale/Title.png");  
+
+  background-size:contain;
+  background-repeat:no-repeat ;
+  
+  background-position: center;
+ 
+}
+#ddd1
+{
+  background-image: url("../../assets/superpromo/Title.png");
+
+  background-size: contain;
+  background-repeat:no-repeat ;
+  background-position: center;
 
 }
-=======
+#ddd2
+{
+  background-image: url("../../assets/bigsale/Title1.png");
+
+  background-size: contain;
+  background-repeat:no-repeat ;
+  background-position: center;
+
+}
+#ddd3
+{
+  background-image: url("../../assets/flashsale/Title.png");
+
+  background-size: contain;
+  background-repeat:no-repeat ;
+  background-position: center;
+
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -61,4 +92,3 @@
  .sale a img:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
  }
->>>>>>> 1822f5a22914a8cb67a4b4570635438a60bab78d

@@ -3,16 +3,16 @@
    
 
     width: 100%; 
-    height: 98vh;
+    height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
-    /* background-size: cover; */
-    /* background-position: center; */
+  overflow: hidden; 
+    background-size: cover; 
+     background-position: center; 
     background-image: url("../../assets/megasale/4.png");
 }
 .img{
-    margin-left: 6%;
+    margin-left: 5%;
     width: 90%;  
     background-size: contain;
     background-repeat: no-repeat;
@@ -22,10 +22,27 @@
     background-image: url("../../assets/megasale/5565365.jpg")
 }
 .circle{
-    width: 90%; 
-    height: 98vh; 
+    width: 25%; 
+    height: 33vh; 
+    position: relative;    
+    top: 62%;
+    left: 77.8%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../../assets/megasale/2.png")
 
 }
+.text{
+    width: 25%; 
+    height: 21vh; 
+    position: relative;    
+    top: 35%;
+    left: 79.5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/superpromo/Promo.png")
+
+
+}
+
+

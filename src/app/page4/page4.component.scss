@@ -1,31 +1,37 @@
 
-.title{
-   
-
-    width: 100%; 
-    height: 98vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* overflow: hidden; */
-    /* background-size: cover; */
-    /* background-position: center; */
-    background-image: url("../../assets/megasale/4.png");
+:host {
+    display: block;
+    perspective: 400px;
 }
-.img{
-    margin-left: 6%;
-    width: 90%;  
-    background-size: contain;
-    background-repeat: no-repeat;
-/*     overflow: hidden; */
-   /*  background-size: cover; */
-   /*  background-position: center; */
-    background-image: url("../../assets/bigsale/5565392.png")
-}
-.circle{
-    width: 90%; 
-    height: 98vh; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../../assets/megasale/2.png")
 
+.img {
+   /*  box-shadow: 10px 10px 43px 18px rgba(0, 0, 0, 0.75); */
+    border-radius: 5px;
+    height: 1200px;
+    width: 1200px;
+ position: absolute;
+    
+    top: 100px;
+    left: 1000px;
+    transform-style: preserve-3d;
+}
+
+.face {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    backface-visibility: hidden;
+
+    > img {
+        width: 100%;
+        height: 100%;
+    
+        border-radius: inherit;
+    }
+}
+
+.front{
+    transform: rotateY(180deg);
 }

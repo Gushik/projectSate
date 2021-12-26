@@ -1,10 +1,10 @@
-<div class= "img" >
-    <div class = "title" [@animationCircle]  >
-        
-     
-    </div>
-    <div class = "circle">
 
-    </div>
+<div class="img" (mouseout)="cardClicked()" [@cardFlip]="data.state">
 
+    <div class="face back" [@animationCircle] >
+        <img src="assets/megasale/t1.png">
+    </div>
+    <div class="face front">
+        <img src="assets/bigsale/5565392.png">
+    </div>
 </div>

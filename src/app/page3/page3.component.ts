@@ -19,10 +19,10 @@ import { Component, OnInit } from '@angular/core';
 
       })),
       state('end', style({
-        height:'450px',
+        height:'1250px',
         position: 'relative',
-        top: '-560px',
-    left: '75.5%',
+        top: '560px',
+    left: '72.5%',
         zIndex: '1',
 
       })),
