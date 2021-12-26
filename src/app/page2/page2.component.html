@@ -1,16 +1,23 @@
+<div class="img">
+    <div class="title" [@move]="state" (@move.done)="onEnd($event)">
+    </div>
 
-<div class= "img" >
-    <div class = "title" [@animationCircle]  >
-        <div class = "circle">
+
+    <div class="circle1" [@animationCircle]>
+        <div class="circle" [@animationCircle]>
 
         </div>
-        <div class = "text"(mouseover)= "changeMoveDivState()" (mouseout) ="changeOutDivState()" [@moveMouseDiv] ="moveDivState">
-    
-        </div> 
-     
-    </div>
-    
+        <div class="text" (mouseover)="changeMoveDivState()" (mouseout)="changeOutDivState()"
+            [@moveMouseDiv]="moveDivState">
 
+        </div>
+        <Div class="text1"(mouseout)="cardClicked()" [@cardFlip]="data.state"></Div>
+ <Div class="logo"></Div>
+ <Div class="shop"[@move]="state" (@move.done)="onEnd($event)"></Div>
+    </div>
+   
 
 </div>
+
+
 

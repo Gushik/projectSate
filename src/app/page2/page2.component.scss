@@ -2,7 +2,7 @@
 .title{
    
 
-    width: 100%; 
+    width: 97%; 
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
@@ -25,23 +25,67 @@
     width: 25%; 
     height: 33vh; 
     position: relative;    
-    top: 62%;
-    left: 77.8%;
+    top: 42%;
+    left: 95.8%;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../../assets/megasale/2.png")
 
 }
-.text{
-    width: 25%; 
-    height: 21vh; 
-    position: relative;    
-    top: 35%;
-    left: 79.5%;
+.circle1{
+    width: 60%; 
+    height: 60vh; 
+    position: absolute;    
+    top: 22%;
+    left: 15%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("../../assets/superpromo/Promo.png")
+    background-image: url("../../assets/megasale/3.png")
 
+}
+
+.text{
+    width: 60%; 
+    height: 60vh; 
+    position: absolute;    
+    top: 6%;
+    left: 3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/megasale/Title.png")
+
+}
+.text1{
+    width: 30%; 
+    height: 30vh; 
+    position: absolute;    
+    top: 51%;
+    left: 95%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/megasale/t1.png")
+
+}
+.logo{
+    width: 20%; 
+    height: 20vh; 
+    position: absolute;    
+    top: -32%;
+    left: -12%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/megasale/logo.png")
+
+}
+.shop{
+    width: 30%; 
+    height: 30vh; 
+    position: absolute;    
+    top: 83%;
+    left: 22%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/superpromo/SHOP NOW.png")
 
 }
 
